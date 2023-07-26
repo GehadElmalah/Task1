@@ -1,0 +1,101 @@
+body{
+	background: rgb(84,84,84);
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.header{
+   
+    width: 100%;
+    z-index: 5;
+}
+.nav{
+	position: fixed;
+	background: rgb(185, 185, 185);
+	text-align: right;
+	margin: 0;
+	top: 0;
+    width: 100%;
+    z-index: 5;
+}
+.nav li{
+	display: inline-block;
+}
+
+
+ .nav .navelement{
+	display: block;
+	padding: 1em;
+	font-weight: bold;
+	color: #000;
+	text-decoration:none;
+	font-size: 25px;
+ }
+ 
+ .nav .navelement:hover{
+	background: #333;
+    color: #fff;
+    transition: ease 0.3s all;
+ }
+ 
+ img{
+	width:200px;
+    padding:20px;
+	margin-left:38em;
+	display: block;
+ }
+  img:hover  {
+  opacity: 1;
+}
+ 
+ h1{
+	text-align: center;
+	font-size: 35px;
+	margin: 3em 4rem 1em;
+ }
+ 
+section .container{
+	background: grey;
+	height:20px;
+	padding: 10em;
+    text-align: left;
+	padding-top: 5em;
+	margin-top: 5em;
+} 
+
+.container h2{
+	font-size: 25px;
+}
+
+.container p{
+	font-size: 20px;
+}
+
+
+.page__footer {
+    background: #333;
+	margin-top:5em;
+    padding: 3em;
+    color: #fff;
+}
+
+.page__footer p{
+    color: #fff;
+}
+
+
+section:nth-of-type(even) .container {
+    margin-right: 0;
+    margin-left: auto;
+    text-align: right; 
+}
+
+
+section .active-class {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 10) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
